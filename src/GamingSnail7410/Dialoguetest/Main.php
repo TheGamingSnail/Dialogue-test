@@ -33,8 +33,10 @@ class Main extends PluginBase implements Listener{
     return true;
    }
    
-   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
-   	switch($cmd->getName()){
+   
+
+   public function bool(){
+       switch($cmd->getName()){
    		case "test2":
    		  $sender->sendMessage("This is dialogue test 2");
    		break;
