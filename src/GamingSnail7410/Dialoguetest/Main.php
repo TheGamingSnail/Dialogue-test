@@ -38,6 +38,7 @@ class Main extends PluginBase implements Listener{
     case "test2":
       $sender->sendMessage("Test Dialogue 2");
     break;
+          
    }
 
    return true:
