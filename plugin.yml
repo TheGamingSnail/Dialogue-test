@@ -7,18 +7,32 @@ mcpe-protocol: 448
 description: A dialogue test plugin for npcs.
 
 commands:
-  test1:
+  npc1:
     description: This is dialogue 1
-    aliases: test1
-    permission: test1.command
-  test2:
+    aliases: npc1
+    permission: npc1.command
+  npc2:
     description: This is dialogue 2
-    aliases: test2
-    permission: test2.command
+    aliases: npc2
+    permission: npc2.command
+  npc3:
+    description: This is dialogue 3
+    aliases: npc3
+    permission: npc3.command
+  npc4:
+    description: This is dialogue 4
+    aliases: npc4
+    permission: npc4.command
 permissions:
-  test1.command:
+  npc1.command:
     description: This is dialogue 1 permission
     default: op
-  test2.command:
+  npc2.command:
     description: This is dialogue 2 permission
+    default: op
+  npc3.command:
+    description: This is dialogue 3 permission
+    default: op
+  npc4.command:
+    description: This is dialogue 4 permission
     default: op
