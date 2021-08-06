@@ -24,12 +24,20 @@ class Main extends PluginBase implements Listener{
    }
    public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
    	switch($cmd->getName()){
-   		case "test1":
+   		case "npc1":
    		  $sender->sendMessage("This is dialogue test 1");
    		break;
 
-         case "test2":
+         case "npc2":
            $sender->sendMessage("This is dialogue test 2");
+         break;
+            
+     		case "npc3":
+   		  $sender->sendMessage("This is dialogue test 3");
+   		break;
+
+         case "npc4":
+           $sender->sendMessage("This is dialogue test 4");
          break;
       }
     return true;
