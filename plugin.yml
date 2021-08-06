@@ -11,10 +11,6 @@ commands:
     description: This is dialogue 1
     aliases: test1
     permission: test1.command
-  test2:
-    description: This is dialogue 2
-    aliases: test2
-    permission: test2.command
     
 permissions:
   testcode3.command:
