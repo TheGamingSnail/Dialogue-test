@@ -32,6 +32,7 @@ class Main extends PluginBase implements Listener{
    	}
     return true;
    }
+   
    public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
    	switch($cmd->getName()){
    		case "test2":
