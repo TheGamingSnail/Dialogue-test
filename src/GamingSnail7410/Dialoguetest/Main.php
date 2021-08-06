@@ -29,12 +29,7 @@ class Main extends PluginBase implements Listener{
    		case "test1":
    		  $sender->sendMessage("This is dialogue test 1");
    		break;
-   	}
-    return true;
-   }
-   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
-   	switch($cmd->getName()){
-   		case "test2":
+         case "test2":
    		  $sender->sendMessage("This is dialogue test 2");
    		break;
    	}
