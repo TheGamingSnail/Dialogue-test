@@ -1,0 +1,22 @@
+name: Dialoguetest
+version: 0.0.1
+author: GamingSnail7410
+main: GamingSnail7410\Dialoguetest\Main
+api: 3.21.1
+mcpe-protocol: 448
+description: A dialogue test plugin for npcs.
+
+commands:
+  test1:
+    description: This is dialogue 1
+    aliases: test1
+    permission: test1.command
+  test2:
+    description: This is dialogue 2
+    aliases: test2
+    permission: test2.command
+    
+permissions:
+  testcode3.command:
+    description: This is a permission
+    default: op
