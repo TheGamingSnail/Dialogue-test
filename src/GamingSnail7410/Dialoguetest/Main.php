@@ -8,29 +8,23 @@ use pocketmine\Player;
 
 use pocketmine\Server;
 
-use pocketmine\event\Listener;
-
 use pocketmine\command\Command;
 
 use pocketmine\command\CommandSender;
 
-   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{switch($cmd->getName()){
-    case "test1";
-      $sender->sendMessage("Test Dialogue 1");
-    break;
+   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
+   	switch($cmd->getName()){
+   		case "test1":
+   		  $sender->sendMessage("This is dialogue test 1!");
+   		break;
+   	}
+    return true;
    }
-
-   return true;
-
-}
-
-    public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{switch($cmd->getName()){
-    case "test2";
-      $sender->sendMessage("Test Dialogue 2");
-    break;
-          
+   public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
+   	switch($cmd->getName()){
+   		case "test2":
+   		  $sender->sendMessage("This is dialogue test 2!");
+   		break;
+   	}
+    return true;
    }
-
-   return true;
-
-}
